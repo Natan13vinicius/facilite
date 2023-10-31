@@ -1,0 +1,60 @@
+* {
+    box-sizing: border-box;
+}
+
+
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400px;
+    font-size: 50px;
+}
+
+.background-color {
+    background-color: rgb(206, 245, 62);
+}
+
+.navbar-nav .nav-link.active {
+    color: #fff;
+}
+
+.nav-link {
+    text-align: center;
+}
+
+.bg {
+    max-height: 100vh;
+    background-color: rgb(206, 245, 62);
+}
+
+.p-container {
+    font-size: 20px;
+    width: 40%;
+    /* background-color: red; */
+    height: 40vh;
+    padding-top: 5em;
+}
+
+section {
+    height: 100vh;
+    background-color: rgb(240, 240, 240);
+    padding-top: 70px;
+}
+
+/* img*/
+.col-lg-6,
+.col-sm-12 img {
+    border-radius: 600px 300px 400px 200px;
+
+}
+
+.imagem-container {
+    text-align: end;
+}
+
+header {
+    position: sticky;
+    top: 0;
+    left: 0;
+    background-color: rgb(206, 245, 62);
+}
