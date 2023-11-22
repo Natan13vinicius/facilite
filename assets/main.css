@@ -1,60 +1,115 @@
-* {
-    box-sizing: border-box;
+:root {
+    --cor-primaria: #ffffff;
+    /* Vermelho */
+    --cor-secundaria: #00ff00;
+    /* Verde */
+    --cor-botoes: #00ff88;
+    /* Azul */
 }
 
 
-
-h1 {
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 400px;
-    font-size: 50px;
-}
-
-.background-color {
-    background-color: rgb(206, 245, 62);
-}
 
 .navbar-nav .nav-link.active {
-    color: #fff;
+    color: var(--cor-primaria);
 }
+
 
 .nav-link {
     text-align: center;
 }
 
-.bg {
-    max-height: 100vh;
-    background-color: rgb(206, 245, 62);
-}
-
-.p-container {
-    font-size: 20px;
-    width: 40%;
-    /* background-color: red; */
-    height: 40vh;
-    padding-top: 5em;
+.nav .nav-item.nav-link {
+    background-color: green;
+    width: 100px;
 }
 
 section {
-    height: 100vh;
-    background-color: rgb(240, 240, 240);
+    background-color: rgb(206, 245, 62);
+    max-height: 100vh;
     padding-top: 70px;
-}
-
-/* img*/
-.col-lg-6,
-.col-sm-12 img {
-    border-radius: 600px 300px 400px 200px;
 
 }
 
-.imagem-container {
-    text-align: end;
+/* home */
+#home {
+    height: 90vh;
+}
+
+.background h2 {
+    font-size: 4em;
+    margin-bottom: 1em;
+}
+
+.background p {
+    font-size: 1.2em;
+}
+
+.background button {
+    margin-top: 2em;
+    width: 50%;
+}
+
+.container .background {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    padding: 1em;
+    width: 100%;
+    color: #212121;
+    height: 90vh;
+    background-color: #fbfbfb;
+    border-radius: 0 100px 100px 0;
+}
+
+.container .background2 {
+    padding: 1em;
+    width: 100%;
+    color: white;
+    height: 90vh;
+    background-color: #212121;
+    border-radius: 100px 0px 0 100px;
+    background-image: url(./img/An\ owner\ of\ a\ c\ 1.png);
+    background-size: cover;
+}
+
+
+
+
+.container-fluid {
+    background-color: rgb(206, 245, 62);
 }
 
 header {
+    /* regras para fazer o navbar ficar fixo e acompanhar a tela */
     position: sticky;
     top: 0;
     left: 0;
-    background-color: rgb(206, 245, 62);
+    background-color: #fff;
+    z-index: 999;
+    /* padding na section para que podemos ver o inicio da sessao quando clicarmos no id */
+}
+
+
+
+/* carousel */
+
+section h1 {
+    color: #212121;
+    border-bottom: 3px solid #fff;
+    margin-bottom: 1em;
+    padding-bottom: 25px;
+}
+
+.carousel-inner .item2 img {
+    max-height: 729px;
+
+}
+
+.carousel-item img {
+    border-radius: 100px 100px 0 0;
+}
+
+/* cards */
+.card {
+    margin-bottom: 8em;
 }
