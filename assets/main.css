@@ -25,8 +25,9 @@
 
 section {
     background-color: rgb(206, 245, 62);
-    max-height: 100vh;
+    /* max-height: 100vh; */
     padding-top: 70px;
+
 
 }
 
@@ -83,6 +84,8 @@ section {
 
 
 .container-fluid {
+    /* border-left: 3px solid #fff; */
+
     background-color: rgb(206, 245, 62);
 }
 
@@ -144,12 +147,42 @@ section h1 {
 }
 
 /* cards */
+#cards h1 {
+    color: #fff;
+}
+
 .card {
     margin-bottom: 8em;
+    border-left: 4px solid rgb(206, 245, 62);
+    border-bottom: 2px solid rgb(206, 245, 62);
+
+
+
+}
+
+.card a {
+    background-color: #212121;
+    border: 3px solid rgb(206, 245, 62);
+}
+
+
+
+.card .card-body {
+    height: 12.em;
 }
 
 .fluid-cards {
-    background-color: red;
+    background-color: #212121;
     width: 100%;
     height: 100%;
+    border-left: 3px solid rgb(206, 245, 62);
+    border-top: 3px solid rgb(206, 245, 62);
+    border-right: 3px solid rgb(206, 245, 62);
+
+
+}
+
+#cards {
+    background-color: #212121;
+
 }

@@ -1,4 +1,4 @@
-@media screen and (max-width:800px) {
+@media screen and (max-width:700px) {
     .carousel-inner .item2 img {
         height: 400px;
     }
@@ -23,9 +23,22 @@
 
 
     #home {
-        height: none;
+        height: auto;
     }
 
+
+
+    .card h4 {
+        font-size: 1.4em;
+    }
+
+    .card p {
+        font-size: .90em;
+    }
+
+    .card a {
+        font-size: .90em;
+    }
 }
 
 @media screen and (max-width:990px) {
